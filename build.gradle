@@ -8,7 +8,8 @@ repositories {
     mavenRepo name:"groovypp", url:"http://groovypp.artifactoryonline.com/groovypp/libs-releases-local"
 }
 dependencies {
-    groovy 'org.codehaus.groovy:groovy:1.8.6'
+    //groovy 'org.codehaus.groovy:groovy:1.8.6'
+    groovy 'org.codehaus.groovy:groovy:1.8.2'
     testCompile 'org.spockframework:spock-core:0.5-groovy-1.8', {
         exclude group:'org.codehaus.groovy', module:'groovy-all'
     }
